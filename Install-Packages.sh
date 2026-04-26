@@ -21,7 +21,7 @@ btop nvim steam pcmanfm jre-openjdk discord wine winetricks \
 wl-clipboard cliphist spotify lxappearance grim slurp rocm-smi-lib jq \
 gvfs gvfs-mtp gvfs-smb gvfs-nfs gvfs-afc gvfs-goa gvfs-gphoto2 \
 udisks2 udiskie ntfs-3g dosfstools exfatprogs polkit lxsession \
-tumbler ffmpegthumbnailer jmtpfs libmtp qbittorrent
+tumbler ffmpegthumbnailer jmtpfs libmtp qbittorrent noto-fonts-emoji \
 
 # Flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
