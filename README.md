@@ -1,2 +1,13 @@
-# Hypr-dots
-ArchLinux+Hyprland 
+## Descriptions:
+- **OS:** Arch Linux
+- **Window Manager:** Hyprland
+- **Bar:** Waybar
+- **Notifications:** Mako
+- **Laucher:** Rofi
+- **Terminal:** Kitty
+- **File Manager:** Pcmanfm
+- **Fonts:** Nerd Fonts
+- **Wallpaper Manager:** Hyprpaper
+- **Audio System:** PipeWire
+- **Browser:** Firefox
+- **Task Manager:** Btop+
