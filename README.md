@@ -18,12 +18,8 @@ Here are some basic keybindings to get you started.
 
 | Key-bind                | Action                   |
 | ----------------------- | ------------------------ |
-| **Super + Space**       | Application launcher     |
+| **Super + R**           | Application launcher     |
 | **Super + E**           | File manager             |
-| **Super + Return**      | Open terminal            |
-| **Super + SHIFT** + Q   | Open power menu          |
-| **Super + Q**           | Close current window/app |
-| **Super + Mouse Left**  | Move window              |
-| **Super + Mouse Right** | Resize window            |
-| **Super + Shift + C**   | Change wallpaper         |
-| **Super + Shift + B**   | Show keybinds            
+| **Super + Q**           | Open terminal            |
+| **Super + F12**         | Open power menu          |
+| **Super + C**           | Close current window/app |
