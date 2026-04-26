@@ -1,0 +1,186 @@
+@define-color base-bg rgba(20, 20, 20, 0.75);
+@define-color base-bg-solid #121212;
+@define-color base-fg #e0e0e0;
+
+@define-color ws-bg @base-bg;
+@define-color ws-bg-active #2a2a2a;
+@define-color ws-bg-urgent #000000;
+
+@define-color ws-fg @base-fg;
+@define-color ws-fg-active #ffffff;
+@define-color ws-fg-urgent #aaaaaa;
+
+@define-color mpris-border @base-bg-solid;
+
+@define-color cpu-fg #d0d0d0;
+@define-color mem-fg #c0c0c0;
+@define-color clock-fg #e0e0e0;
+@define-color clock-simple-fg #ffffff;
+@define-color window-fg @base-fg;
+@define-color audio-fg #d6d6d6;
+@define-color audio-muted-fg #888888;
+@define-color tray-fg #cccccc;
+@define-color bluetooth-fg #bbbbbb;
+@define-color battery-fg #dddddd;
+@define-color logo-fg #ffffff;
+@define-color cava-fg #f0f0f0;
+@define-color power-fg #aaaaaa;
+
+@define-color tooltip-bg #111111;
+@define-color tooltip-border #ffffff;
+@define-color sep-fg #666666;
+
+/* ===========================
+ *  Global
+ * =========================== */
+
+window#waybar,
+window#waybar * {
+  min-height: 0;
+  min-width: 0;
+  font-family: Lexend, "JetBrainsMono NFP", monospace; 
+  font-size: 16px;
+  font-weight: 600;
+}
+
+window#waybar {
+  background-color: transparent;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+/* ===========================
+ *  Modules génériques
+ * =========================== */
+
+#clock,
+#pulseaudio,
+#tray,
+#custom-logo,
+#custom-power,
+#custom-spotify,
+#custom-launcher,
+#cpu,
+#memory,
+#window {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: @base-bg;
+}
+
+/* ===========================
+ *  Workspaces
+ * =========================== */
+
+#workspaces button {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: @ws-bg;
+  color: @ws-fg;
+}
+
+#workspaces button:hover {
+  color: @base-bg-solid;
+  background-color: @base-fg;
+}
+
+#workspaces button.active {
+  background-color: @ws-bg-active;
+  color: @ws-fg-active;
+}
+
+#workspaces button.urgent {
+  background-color: @ws-bg-urgent;
+  color: @ws-fg-urgent;
+}
+
+/* ===========================
+ *  MPRIS
+ * =========================== */
+
+#mpris {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: @base-bg;
+}
+
+#mpris.playing {
+  color: #ffffff;
+}
+
+#mpris.paused {
+  color: #888888;
+}
+
+/* ===========================
+ *  États & couleurs modules
+ * =========================== */
+
+#cpu {
+  color: @cpu-fg;
+}
+
+#memory {
+  color: @mem-fg;
+}
+
+#clock {
+  color: @clock-fg;
+}
+
+#clock.simpleclock {
+  color: @clock-simple-fg;
+}
+
+#window {
+  color: @window-fg;
+}
+
+#pulseaudio {
+  color: @audio-fg;
+}
+
+#pulseaudio.muted {
+  color: @audio-muted-fg;
+}
+
+#tray {
+  color: @tray-fg;
+}
+
+#custom-launcher {
+  color: #ffffff;
+}
+
+#custom-logo {
+  color: @logo-fg;
+}
+
+#custom-power {
+  color: @power-fg;
+}
+
+/* ===========================
+ *  Divers
+ * =========================== */
+
+#custom-sep {
+  padding: 0;
+  color: @sep-fg;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+/* ===========================
+ *  Tooltips
+ * =========================== */
+
+tooltip {
+  background-color: @tooltip-bg;
+  border: 2px solid @tooltip-border;
+}
