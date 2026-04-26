@@ -9,5 +9,5 @@
 - **Fonts:** Nerd Fonts
 - **Wallpaper Manager:** Hyprpaper
 - **Audio System:** PipeWire
-- **Browser:** Firefox
+- **Browser:** Chromium
 - **Task Manager:** Btop+
