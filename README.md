@@ -24,3 +24,4 @@ Here are some basic keybindings to get you started.
 | **Super + F12**         | Power Off                |
 | **Super + F11**         | Reboot                   |
 | **Super + C**           | Close current window/app |
+| **Super + F**           | Open Browser             |
