@@ -9,7 +9,7 @@
 - **Fonts:** Nerd Fonts
 - **Wallpaper Manager:** Hyprpaper
 - **Audio System:** PipeWire
-- **Browser:** Chromium
+- **Browser:** Firefox
 - **Task Manager:** Btop+
 
 ## Keybindings
