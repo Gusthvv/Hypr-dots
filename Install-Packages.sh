@@ -16,11 +16,12 @@ rm -rf yay
 # Instala todos os pacotes com yay
 yay -S --needed --noconfirm \
 git code spotify discord steam firefox rofi fastfetch chromium \
-ghostty 
+ghostty mako dolphin waybar hyprpaper btop cava 
 
 
 # Flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+flatpak install flathub org.bluesabre.MenuLibre
 
 echo "Instalação concluída."
