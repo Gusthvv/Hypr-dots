@@ -5,7 +5,7 @@
 - **Notifications:** Mako
 - **Laucher:** Rofi
 - **Terminal:** Kitty
-- **File Manager:** Pcmanfm
+- **File Manager:** Dolphin
 - **Fonts:** Nerd Fonts
 - **Wallpaper Manager:** Hyprpaper
 - **Audio System:** PipeWire
