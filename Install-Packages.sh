@@ -16,4 +16,4 @@ rm -rf yay
 # Instala todos os pacotes com yay
 yay -S --needed --noconfirm \
 btop mako rofi waybar hyprpaper \
-kitty
+kitty firefox
